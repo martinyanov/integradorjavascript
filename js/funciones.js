@@ -45,3 +45,5 @@ function redirectToIndex2() {
   
 
   document.getElementById("total-a-pagar").readOnly = true;
+
+  
