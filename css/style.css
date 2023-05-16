@@ -1,0 +1,520 @@
+.p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header-container {
+  height: 60px;
+  width: 100vw;
+  background-color: #353a40;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.logo img {
+  height: auto;
+  max-height: 100%;
+  width: 20%;
+  margin-left: 45px;
+  margin-right: 20px;
+}
+
+.logo-text {
+  font-size: 1.2rem;
+  color: white;
+
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: #989da0;
+}
+
+.letrablaca{
+  color: #fff;
+}
+
+
+
+nav a:hover {
+  text-decoration: none;
+  color: lightgrey;
+}
+
+.Comprar-tickets {
+  font-size: 0.9rem;
+  color: #27a844;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 50px;
+
+}
+
+.Comprar-tickets:hover {
+  text-decoration: none;
+  color: rgb(236, 236, 137);
+}
+
+
+.contenedor {
+    display: flex;
+    width: 80%;
+    height: 500px;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin: auto;
+}
+
+.fondo {
+  position: relative;
+}
+
+.texto {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position: absolute;
+  top: 200px;
+  right: 100px;
+  width: 500px;
+  text-align: right;
+}
+
+.texto h2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.texto p {
+  font-size: 1rem;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.botones {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.botones button {
+  margin-left: 10px;
+}
+
+.full-width {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.full-width2 {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.ticket-price {
+  line-height: 0.5;
+  margin-bottom: 5mm;
+}
+
+.full-width h4, .full-width h1, .full-width p {
+  display: inline-block;
+  margin: 0;
+  color: gray
+}
+
+
+.descuentos-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.descuento-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: calc(35% - 4mm);
+  height: 200px;
+  border: 1px solid;
+  border-radius: 0;
+  padding: 10px;
+}
+
+.blue-box {
+  border-color: #0d6efd;
+}
+
+.blue-box2 {
+  border-color: #4f6586;
+}
+
+.yellow-box {
+  border-color: #f3f169;
+}
+
+.descuento-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.descuento-text {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.descuento-porcentaje {
+  font-weight: bold;
+  font-size: 1.7rem;
+  color: black;
+  margin-bottom: 5px;
+}
+
+.descuento-requerimientos {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+
+
+.gris {
+  color: gray;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.punteado {
+text-decoration: none;
+border-bottom: 2px dotted gray;
+}
+
+.chiq {
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
+} 
+
+#steve,#bill,#ada {
+  width: 320px;
+  height: 560px;
+  background-color: white;
+  border-radius: 2px;
+  border: 1px solid skyblue;
+  border-radius: 12px;
+}
+
+#steve img, #bill img,#ada img {
+ border-top-right-radius: 10px;
+ border-top-left-radius: 10px;
+}
+
+#steve .tit,#bill .tit,#ada .tit {
+  margin-left: 20px;
+  text-align: left;
+  font-size: 1.6rem;
+}
+
+#steve .chiq,#bill .chiq,#ada .chiq {
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: justify;
+  font-size: 0.8rem;
+}
+
+.botonesAmarillos {
+ font-family: 'Open Sans', sans-serif;
+ background-color: yellow;
+ border: none;
+ color:black;
+ border-radius: 5px;
+ text-align: justify;
+ text-decoration: none;
+ cursor: pointer;
+ margin-block-start: 0%;
+ font-weight: bold;
+ margin-left: 20px;
+ margin-top: 10px;  
+}
+
+.botonesGris {
+ font-family: 'Open Sans', sans-serif;
+ background-color: gray;
+ border: none;
+ color:white;
+ border-radius: 5px;
+ text-align: justify;
+ text-decoration: none;
+ cursor: pointer;
+ margin-block-start: 0%;
+ font-weight: bold;
+ margin-left: 20px;
+ margin-top: 10px;
+}
+
+.botonesCeleste {
+ font-family: 'Open Sans', sans-serif; 
+ background-color: rgb(0, 204, 255);
+ border: none;
+ color:white;
+ border-radius: 5px;
+ text-align: justify;
+ text-decoration: none;
+ cursor: pointer;
+ margin-block-start: 0%;
+ font-weight: bold;
+ margin-left: 5px;
+ margin-top: 10px;  
+}
+
+.botonesRojos {
+ font-family: 'Open Sans', sans-serif;
+ background-color: rgb(255, 17, 0);
+ border: none;
+ color:white;
+ border-radius: 5px;
+ text-align: justify;
+ text-decoration: none;
+ cursor: pointer;
+ margin-block-start: 0%;
+ font-weight: bold;
+ margin-left: 5px;
+ margin-top: 10px;  
+}
+
+.botonesAmarillos:hover {
+    background-color: rgb(241, 241, 144);    
+}
+
+.botonesCeleste:hover {
+    background-color: lightskyblue;    
+}
+
+.botonesRojos:hover {
+    background-color: lightcoral;    
+}
+
+.botonesGris:hover {
+    background-color: lightgray;    
+}
+
+.btn-green:hover {
+    background-color: lightgreen;    
+}
+
+.container-fluid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-box {
+  width: 50%;
+  background-color:gray;
+  padding: 20px;
+  border: 0.5px solid white
+}
+
+.left-box h2 {
+  font-weight: bold;
+  color: white;
+}
+
+.left-box p {
+  color: white;
+}
+
+.left-box button {
+  background-color: gray;
+  color: white;
+  border: 1px solid white;
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+.right-box {
+  width: 50%;
+}
+
+.right-box img {
+width: 100%;
+border: 0.5px solid white
+
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+
+.Contenedor2 {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+}
+
+.Contenedor3 {
+  width: 50%;
+  margin: 0 auto;
+}
+
+
+.col-12 {
+  padding-right: 5mm;
+  padding-left: 5mm;
+}
+
+.col-md-6 {
+  width: 50%;
+  padding-right: 5mm;
+  padding-left: 5mm;
+}
+
+
+.form-control {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.form-control2 {
+  width: 100%;
+  height: 50px;
+  padding: 5px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#exampleFormControlInput1 {
+  color: gray;
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+
+#exampleFormControlInput2 {
+  color: gray;
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  background-color: lightblue;
+}
+
+#exampleFormControlTextarea1 {
+  color: gray;
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 0px;
+  margin-top: 2mm;
+}
+
+textarea {
+  color: gray;
+  resize: none;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+}
+
+
+.btn-green {
+  width: 50%;
+  height: 50px;
+  border: none;
+  background-color: #28a745;
+  color: white;
+  font-size: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-green2 {
+  margin-left: 25px;
+  width: calc(50% + 12.5%);
+  height: 40px;
+  border: none;
+  background-color: #28a745;
+  color: white;
+  font-size: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-blanco:hover {
+    background-color: rgb(243, 228, 200);    
+}
+
+footer {
+  background-color: #1f485e;
+  height: 80px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 0 178px;
+}
+
+.footer-container a {
+  color: white;
+  font-size: 0.9rem;
+  text-decoration: none;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.botones {
+  display: flex;
+  justify-content: space-between;
+}
+
+.botones button {
+  margin-left: 0mm;
+  margin-right: 5mm;
+}
+
+.botones button:last-child {
+  margin-right: 0;
+}
+
+

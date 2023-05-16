@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    </head>
+    <body>
+
+      <div class="header-container">
+        <div class="logo">
+          <img src="./img/codoacodo.png" alt="Logo de CodoaCodo">
+          <span class="logo-text">Conf Bs As</span>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#" class="letrablanca">La Conferencia</a></li>
+            <li><a href="#">Los Oradores</a></li>
+            <li><a href="#">El Lugar y la Fecha</a></li>
+            <li><a href="#">Conviértete en Orador</a></li>
+            <li><span class="Comprar-tickets" onclick="redirectToIndex2()">Comprar tickets</span></li>
+          </ul>
+        </nav>
+        
+      </div>
+        
+      <div class="fondo">
+        <img src="img/hawaii.jpg" width="100%">
+        <div class="texto">
+          <h2> <b></b> Conf Bs As</b></h2>
+          <p>Bs As llega por primera vez a la Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes de codo a codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+          <div class="botones">
+            <button class="btn btn-outline-light">Quiero ser orador</button>
+            <button class="btn btn-success" onclick="redirectToIndex2()">Comprar tickets</button>
+          </div>
+        </div>
+      </div>
+      
+      <div class="full-width">
+          <p class="gris">CONOCE A LOS</p><br>
+          <h4 class="gris">ORADORES</h4>
+      </div>
+      <br><br><br>
+        
+      <div class="contenedor">
+            <div id="steve">
+                <img src="img/steve.jpg" width="320px">
+                <input type="button" value="JavaScript" class="botonesAmarillos" >
+                <input type="button" value="React" class="botonesCeleste" >
+                <p class="tit"><b>Steve Jobs</b></p>
+                <p class="chiq">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia blanditiis quod deserunt modi expedita recusandae atque debitis magnam officiis error inventore, explicabo pariatur ratione placeat.</p>
+            </div>
+            <div id="bill">
+                <img src="img/bill.jpg" width="320px">
+                <input type="button" value="JavaScript" class="botonesAmarillos" >
+                <input type="button" value="React" class="botonesCeleste" >
+                <p class="tit"><b>Bill Gates</b></p>
+                <p class="chiq">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam deserunt, vero magnam consectetur commodi voluptatibus aliquid, minus eaque libero tempore nesciunt reiciendis similique.</p>
+            </div>
+            <div id="ada">
+                <img src="img/ada.jpeg" width="320px">
+                <input type="button" value="Negocios" class="botonesGris" >
+                <input type="button" value="Startups" class="botonesRojos" >
+                <p class="tit"><b>Ada Lovelace</b></p>
+                <p class="chiq">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero animi error eius dolor possimus velit dolorem neque. Dignissimos eum enim libero deleniti debitis delectus animi!</p>                
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="container-fluid">
+            <div class="right-box">
+                <img src="img/honolulu.jpg" alt="Foto de Buenos Aires">
+              </div>
+            <div class="left-box">
+              <h2>Buenos Aires - Octubre</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda illum facilis voluptas dolorum, ad nulla ullam sunt odit iure! Sunt.</p>
+              <button class="btn-blanco">Conocé más</button>
+            </div>
+           
+          </div>
+          <div class="full-width">
+            <p>CONVIÉRTETE EN UN</p><br>
+            <h1>ORADOR</h1>
+            <br>
+            <p>Anótate como orador para dar una <u class="punteado">charla ignite</u>. Cuéntanos de que quieres hablar!</p>
+          </div>
+
+          <div class="Contenedor2">
+            <div class="row mb-3">
+              <div class="col-12 col-md-6">
+                <input type="Nombre" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+              </div>
+              <div class="col-12 col-md-6">
+                <input type="Apellido" class="form-control" id="exampleFormControlInput1" placeholder="Apellido">
+              </div>
+              <div class="col-12">
+                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Sobre que quieres hablar" rows="3"></textarea>
+                <p class="gris">Recuerda incluir un título para tu charla</p>
+              </div>
+            </div>
+          </div>
+          <br>
+        
+         <div class="btn-container">
+            <button class="btn-green">Enviar</button>
+          </div>
+          <br><br><br>
+        
+        <footer>
+            <div class="footer-container">
+              <a href="#">Preguntas<br> frecuentes</a>
+              <a href="#">Contáctanos</a>
+              <a href="#">Prensa</a>
+              <a href="#">Conferencias</a>
+              <a href="#">Términos y<br> condiciones</a>
+              <a href="#">Privacidad</a>
+              <a href="#">Estudiantes</a>
+            </div>
+        </footer>
+             
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>    
+        <script src="js/funciones.js" ></script>
+      </body>
+</html>
